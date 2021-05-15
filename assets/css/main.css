@@ -715,12 +715,14 @@ body ul p h1 h2 h3 h4 h5 h6 {
   
   input {
     margin-left: 150px;
+    width: 220px;
   }
   
   .email {
     border-radius: 7px;
     margin-bottom: 20px;
     border: 1px solid #979797;
+    width: 220px;
   }
   
   .message {
@@ -763,3 +765,31 @@ body ul p h1 h2 h3 h4 h5 h6 {
     padding: 15px;
   }
   
+  @media (max-width: 768px) {
+
+    .emmy-navbar .center ul li  {
+          display: none;
+    }
+
+    .emmy-navbar .left {
+        margin-left: 20px;
+    }
+    
+    .design {
+        text-align: center;
+        display: block;
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .message {
+        width: 200px;
+        height: 100px;
+        margin-left: 150px;
+    }
+    
+     .button {
+         margin-left: 130px;
+     }
+  }
+
