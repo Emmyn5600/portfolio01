@@ -37,7 +37,8 @@
     <div class="sc-htoDjs eDYeyE">
       <div>
           <h2 class="projectTitle">Hi There!</h2>
-          <h2 class="projectTitle">I'm NSABIMANA Emmanuel</h2>
+          <h2 id="head-one">I am </h2> <h2 id="head-two"><abbr style="display:none;" title="">developer</abbr><span id="span-one"></span><abbr id="cursor"></abbr></h2>
+        
           <p class="project-subtitle">Full-Stack Software Developer with a love for problem-solving.</p>
           <div class="d-flex justify-content-center account">
             <a href="mailto:emmy66418@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope-open"></i></a>
@@ -69,7 +70,9 @@
           <div class="api sc-iwsKbI hRZzmY">
            <div class="border-line"></div>
             <div class="blocks-container">
-              <img src="./assets/images/newsweek.png" alt="newsweek"><h1>NewsWeek</h1>
+                 
+              <img src="./assets/images/newsweek.png" alt="newsweek">
+              <h1>NewsWeek</h1>
                 <p>This is a clone of The Newsweek Website homepage using HTML & CSS & bootstrap:To achieve this, the project makes use of HTML5 and CSS3 and focuses on the web responsivity aspects of the project, making use of media queries to achieve this and bootstrap mainly.
                 </p>
               <div class="link">
@@ -82,12 +85,12 @@
           <div class="os sc-iwsKbI hRZzmY">
              <div class="border-line"></div>
                <div class="blocks-container">
-                <img src="./assets/images/directory.png" alt="directory"><h1>Directory of School</h1>
-                  <p>Patashule is a web app that bridges the gap between schools and parents. We developed this as a result of a felt need by parents/ guardians and learners for adequate accurate and necessary information on their preferred schools and inability to apply online.
+                <img src="./assets/images/lifestyle.png" alt="directory"><h1>Visit-Rwanda</h1>
+                  <p>VisitRwanda is web app to write - read articles as well as vote about how Rwanda is 'land of thousand hills' with an impeccably beautiful country; characterised by fascinating savannah, undulating hills and deep valleys, abundant wildlife and natural aesthetics.
                   </p>
                   <div class="link">
-                    <a class="github" href="https://github.com/Emmyn5600/DirectoryOf-School" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                    <a class="liveserver" href="https://emmyn5600.github.io/DirectoryOf-School/" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right"></i></a>
+                    <a class="github" href="https://github.com/Emmyn5600/Lifestyle" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                    <a class="liveserver" href="https://lifestyle02.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right"></i></a>
                   </div>
               </div>
            </div>
@@ -250,20 +253,22 @@
           </div>
    </section>
     <div class="form">
-      <h2 class="hPqllD">Talk to Me</h2>
+      <h2 class="hPqllD">Contact Me</h2>
       <fieldset class="design">
           <form action="/contact.html" method="POST">
-              <label for="fname">
-                  Names:
-                  <input type="text" name="Names" class="names" id="fname" required>
-              </label>
-              <label for="email">
-                  E-mail:
-                  <input type="email" name="E-mail" class="email" id="email" required>
-              </label>
-              <label for="message">
-                  <textarea name="Message" class="message" placeholder="Leave your Message!!" cols="50" rows="5" id="message" required></textarea>
-              </label>
+            <div>
+             
+                <input type="text" name="Names" class="names" id="fname" placeholder="Enter your name..." required>
+              </div>
+
+              <div>
+                <input type="email" name="E-mail" class="names" id="email" placeholder="Enter your email..." required>
+              </div>
+              
+              <div>
+              <textarea name="Message" class="message" placeholder="Leave your Message!!" rows="5" id="message" required></textarea>
+
+            </div>
               <input type="submit" value="Send Message" class="button">
           </form>
         </fieldset>
@@ -285,8 +290,10 @@
     </div>
   </div>
    </footer>
+   
    <!-- JavaScript Bundle with Popper -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
-</script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+   <script src="script/script.js"></script>
 </body>
 </html>
