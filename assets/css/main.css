@@ -149,7 +149,7 @@ body ul p h1 h2 h3 h4 h5 h6 {
     font-family: 'HankenGroteskRegular', 'Overpass', sans-serif;
   }
   
-  .eDYeyE h2 {
+  .eDYeyE h2, h3 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 48px;
     font-weight: 700;
