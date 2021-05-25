@@ -259,7 +259,7 @@
           <form action="/contact.html" method="POST">
             <div>
              
-                <input type="text" name="Names" class="names" id="fname" placeholder="Enter your name..." required>
+                <input type="text" name="Names" class="names" id="name" placeholder="Enter your name..." required>
               </div>
 
               <div>
@@ -270,7 +270,7 @@
               <textarea name="Message" class="message" placeholder="Leave your Message!!" rows="5" id="message" required></textarea>
 
             </div>
-              <input type="submit" value="Send Message" class="button">
+              <input type="submit" value="Send Message" class="button" onclick="sendEmail();">
           </form>
         </fieldset>
   </div>

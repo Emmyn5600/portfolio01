@@ -153,4 +153,11 @@ function role() {
     }
 }
 
+function sendEmail() {
+    
+    let subject = `Email from ${document.getElementById("name").value} (${document.getElementById("email").value})` 
+    let body = document.getElementById("message").value
+    window.open(`mailto:emmy66418@gmail.com?subject=${subject}&body=${body}`);
+}
+
 nameWriter()
