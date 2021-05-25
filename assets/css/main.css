@@ -438,7 +438,7 @@ body ul p h1 h2 h3 h4 h5 h6 {
     -moz-letter-spacing: 0.24px;
     -ms-letter-spacing: 0.24px;
     letter-spacing: 0.24px;
-    margin: 20px 0;
+    margin: 20px 0 0 20px;
     color: #637381;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 600;
