@@ -237,7 +237,7 @@ body ul p h1 h2 h3 h4 h5 h6 {
   }
   
   .hRZzmY {
-    background: #f5f5f5;
+    background: #c4bdac;
     box-shadow: 0 4px 6px rgb(0 0 0 / 7%);
     border-radius: 12px;
     border: 0 solid transparent;
@@ -361,7 +361,7 @@ body ul p h1 h2 h3 h4 h5 h6 {
   }
   
   .iOPVmQ {
-    background: linear-gradient(151.57deg, #ffd08d 6.11%, #ffdca9 96.84%);
+    background: linear-gradient(151.57deg, #c4bdac 6.11%, #c4bdac 96.84%);
     min-height: 500px;
     margin: 20px;
     display: -webkit-box;
@@ -491,7 +491,7 @@ body ul p h1 h2 h3 h4 h5 h6 {
     content: "";
     width: 1.5em;
     height: 0.1em;
-    background: linear-gradient(151.57deg, #ffd08d 6.11%, #ffdca9 96.84%);
+    background: linear-gradient(151.57deg, #c4bdac 6.11%, #ffdca9 96.84%);
     display: block;
     margin: 0 auto;
     margin-top: 0.5em;
@@ -640,7 +640,7 @@ body ul p h1 h2 h3 h4 h5 h6 {
     content: "";
     width: 2.5em;
     height: 0.1em;
-    background: linear-gradient(151.57deg, #ffd08d 6.11%, #ffdca9 96.84%);
+    background: linear-gradient(151.57deg, #c4bdac 6.11%, #ffdca9 96.84%);
     display: block;
     margin: 0 auto;
     margin-top: 0.5em;
@@ -706,7 +706,7 @@ body ul p h1 h2 h3 h4 h5 h6 {
     border-radius: 10px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     border: 1px solid #979797;
-    background-color: #ffd8a0;
+    background-color: #c4bdac;
     padding: 2rem;
   }
   
